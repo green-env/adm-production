@@ -1,0 +1,476 @@
+.section-hero-tele {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.section-video video{
+    height: 100%;
+}
+
+.television-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background: linear-gradient(to right, #ff6600, #ff5e00);
+  color: white;
+  padding-left: 80px;
+  height: 550px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.television-text {
+  width: 40%;
+}
+
+.television-text h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.television-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+.television-text .highlight-tele {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.television-logo {
+  width: 55%;
+  height: 100%;
+  text-align: center;
+}
+
+.television-logo img {
+    /* margin-top: 70px; */
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.btn-quote {
+  margin-top: 20px;
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+    color: white;
+    border: none;
+    padding: 22px 24px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+  color: rgb(247, 242, 242);
+  position: absolute;
+  left: 44%;
+  top: 520px;
+}
+
+.founder-bio-tele,
+.founder-box-tele,
+.founder-tex-telet,
+.fouder-img-tele {
+  position: relative;
+  z-index: 1;
+}
+/* service-section */
+.service-section {
+  margin: 40px auto;
+  text-align: center;
+  background: linear-gradient(60deg, rgb(252, 250, 250) 0%, rgb(235, 218, 218) 100%, #f4f4f4 100%);
+  margin-top: -35px;
+  padding-bottom: 40px;
+}
+
+.service-section h1 {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.service-section .services {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding-bottom: 45px;
+}
+
+.service-section .service {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.service-section .service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.service-section .service img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.service-section .text {
+  font-size: 16px;
+  color: #f46024;
+  line-height: 1.5;
+}
+
+/* highligt project */
+.highlight-projects {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  background: linear-gradient(60deg, rgb(252, 250, 250) 0%, rgb(216, 197, 197) 100%, #f4f4f4 100%);
+  position: relative;
+  margin-top: -33px;
+  overflow: hidden;
+}
+
+.highlight-projects h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.highlight-projects h2 strong {
+  color: #f46024;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 70px 0px 70px;
+}
+
+.project {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 250px !important;
+  width: 500px !important;
+  border-radius: 20px;
+  border-top-right-radius: 100px !important;
+  border-bottom-right-radius: 100px !important;
+}
+
+.project.active {
+  display: block;
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 100%;
+  border-top-right-radius: 100px !important;
+  border-bottom-right-radius: 100px !important;
+}
+.project p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #f46024;
+  font-weight: 500;
+}
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 15px)) !important;
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 15px)) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #eb7a51 !important;
+}
+/* testimonial */
+.testimonial {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  background: white;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  background-color: #f46024;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.testimonial-header .logo {
+  margin-left: 5%;
+  width: 20px;
+}
+
+.testimonial-header .tagline {
+  width: 60%;
+  font-size: 20px;
+}
+.testimonial-card-item {
+  max-width: 80%;
+  background-color: #f89e7b;
+  border-radius: 10px;
+  position: relative;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.testimonial-card-item:first-child {
+  margin-left:  100px;
+}
+
+.testimonial-card-item p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+.testimonial-card-item strong {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-mark {
+  font-size: 100px;
+  color: #f46024;
+  position: absolute;
+  top: -38px;
+  left: 10px;
+}
+
+.testimonial-card p {
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.founders {
+  text-align: center;
+  padding: 40px 20px;
+  height: 450px;
+  position: relative;
+  background: rgba(207, 207, 211, 0.25);
+  z-index: 9;
+  overflow: hidden;
+}
+
+.founders h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.founder-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  height: 400px;
+}
+
+.founder {
+  overflow: hidden;
+  text-align: center;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  padding-top: 36px;
+  margin-left: -100px;
+  position: absolute;
+  top: -278px;
+  left: 60px;
+  z-index: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 90px 0px inset;
+}
+
+.founder-circle {
+  overflow: hidden;
+  z-index: 1;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  padding-top: 0;
+  margin-left: 0;
+  position: absolute;
+  top: -498px;
+  left: -400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 90px 0px inset;
+}
+
+.founder-img {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.founder strong {
+  display: block;
+  margin-top: 420px;
+  font-size: 26px;
+  margin-left: 230px;
+}
+
+.founder p {
+  font-size: 18px;
+  color: #555;
+  margin-left: 190px;
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+}
+
+.founder-female {
+  overflow: hidden;
+  text-align: center;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  padding-top: 36px;
+  margin-left: -100px;
+  position: absolute;
+  right: -25px;
+  bottom: -305px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 60px 60px 60px 30px, rgba(10, 37, 64, 0.35) 0px -2px 90px 0px inset;
+}
+
+.founder-female strong {
+  display: block;
+  margin-top:90px;
+  font-size: 26px;
+  margin-left: -150px;
+}
+
+.founder-female p {
+  font-size: 18px;
+  color: #555;
+  margin-left: -150px;
+}
+
+
+.testimonial-brand {
+  margin-top: 19px;
+  background: rgba(207, 207, 211, 0.25);
+  height: 580px;
+  margin-bottom: 10px;
+}
+
+.testimonial-brand-parent {
+  width: 100%;
+  height: 450px;
+}
+
+.testimonial-brand-img img{
+  padding-top: 2%;
+  padding-left: 5%;
+  width: 95%;
+  background-size: cover;
+  height: 450px;
+}
+
+.brand-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 25px;
+  color: #f16836;
+}
+
+.testimonial .swiper-button-next, .testimonial .swiper-button-prev {
+  color: #f16836;
+}
+
+.testimonial .swiper-button-next:after, .testimonial .swiper-button-prev:after {
+  font-size: 70px;
+}
+
+@media (min-width: 1400px) {
+  .founder-female strong {
+    margin-left: -3px;
+  }
+
+  .founder-female p {
+    margin-left: -3px;
+  }
+
+  .founder strong {
+    margin-left: 110px;
+  }
+
+  .founder p {
+    margin-left: 110px;
+  }
+
+  .testimonial-card-item {
+    max-width:76%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .founder-female strong {
+    margin-left: 155px;
+  }
+
+  .founder-female p {
+    margin-left: 155px;
+  }
+
+  .founder strong {
+    margin-left: -90px;
+  }
+
+  .founder p {
+    margin-left: -90px;
+  }
+
+  .testimonial-card-item {
+    max-width:72%;
+  }
+}

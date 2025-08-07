@@ -1,0 +1,101 @@
+.business {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 40px;
+    background: linear-gradient(60deg, rgb(252, 250, 250) 0%, rgb(235, 218, 218) 100%, #f4f4f4 100%);
+    height: 600px;
+}
+
+.business-philosophy {
+    width: 30%;
+    padding-left: 15%;
+}
+
+.core-values {
+    width: 40%;
+    padding-left: 15%;
+}
+
+.business h2 {
+    color: #ff6600;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.business .business-philosophy, .business .core-values {
+    width: 48%;
+}
+
+.business .business-philosophy ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.business .business-philosophy li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.business .business-philosophy li::before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    color: #ff6600;
+    font-size: 12px;
+}
+
+.business .core-values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.business .core-values li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.business .letter {
+    color: #ff6600;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+}
+
+
+.background-scan-business {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-scan-business::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -143px;
+    width: 100vw;
+    height: 100%;
+    background: url(../images/no-background.png) no-repeat center center;
+    background-size: 100% 240%;
+    opacity: 0.16;
+    z-index: 0;
+}
+
+.horizontal-lines {
+    width: 100%;
+    border-bottom: 5px solid rgba(14, 30, 37, 0.32);
+    z-index: 10;
+    display: block;
+    position: absolute;
+    bottom: 88px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;    
+}
