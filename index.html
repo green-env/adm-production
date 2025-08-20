@@ -7,12 +7,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./fontweb/css/all.min.css">
   <link rel="stylesheet" href="./public/assets/css/style.css">
+  <link rel="stylesheet" href="./public/assets/css/televisonProgramProduct.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
   <div class="contact-bar" id="contactBar">
     <div class="toggle-btn" id="toggleBtn"></div>
     <a href="tel:0123456789"><img src="./public/assets/images/call.jpg" alt="Gọi điện"></a>
-    <a href="mailto:email@example.com"><img src="./public/assets/images/mail.jpg" alt="Gửi email"></a>
+    <a href="mailto:email@example.com"><img src="../public/assets/images/mail.jpg" alt="Gửi email"></a>
     <a href="#"><img src="./public/assets/images/zalo.png" alt="Zalo"></a>
     <a href="#"><img src="./public/assets/images/facebook.png" alt="Facebook"></a>
   </div>
@@ -51,81 +53,244 @@
     </div>
   </header>
 
-  <section class="section-hero">
-    <div class="section-hero-title">
-      <h1 class="section-hero-title-h1">Về ADM PRODUCTION</h1>
-    </div>
-    <div class="section-hero-title">
-      <p class="section-hero-title-p">"Một điểm chạm - mọi cảm xúc"</p>
-    </div>
-    <div class="section-hero-parent-img">
-      <img src="./public/assets/images/team_banner1.jpg" alt="ADM Meeting">
+  <section class="section-hero-tele">
+    <div class="section-hero-parent-img section-video">
+      <video width="100%" height="auto" controls autoplay muted loop>
+        <source src="https://video.wixstatic.com/video/8c9dca_276b89b37a0c4983a3d6d9b34b9ceeed/1080p/mp4/file.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video HTML5.
+      </video>
     </div>
   </section>
 
-  <section class="founder-section background-scan">
-    <h2 class="title-section">Người sáng lập</h2>
+  <section class="television-section">
+    <div class="television-text">
+      <h2>ADM PRODUCTION</h2>
+      <p>
+      ADM Production là đơn vị truyền thông và tổ chức sự kiện chuyên nghiệp, nơi kết nối tư duy chiến lược với tinh thần nghệ thuật.
+      Với đội ngũ sáng tạo và giàu kinh nghiệm, ADM không chỉ cung cấp giải pháp truyền thông toàn diện – từ tư vấn thương hiệu,
+      xây dựng chiến lược truyền thông đến sản xuất sự kiện – mà còn đồng hành cùng khách hàng kiến tạo những dấu ấn đậm chất riêng,
+      khác biệt và hiệu quả.
+      </p>
+      <p class="highlight-tele">Tư vấn miễn phí: 0961 881 868</p>
 
-    <div class="founder-bio">
-      <div class="founder-box">
-        <div class="founder-text">
-          <p class="quote">
-            <i class="fa-solid fa-quote-left quote-left "></i>
-            <span class="highlight">Đam mê là ngọn lửa </span>
-            <br> 
-            <span class="highlight">Sáng tạo là ngọn gió</span>
-            <i class="fa-solid fa-quote-right quote-right"></i>
-          </p>
-          <ul class="grey-bold">
-            <li>Cử nhân Lý Luận Học viện Âm nhạc Quốc gia Viêt Nam</li>
-            <li>Cử nhân Đại học sân khấu điện ảnh</li>
-            <li>Cử nhân Đại học Công nghệ điện ảnh tại Full Sail University, Florida, Mỹ</li>
-            <li>2017 đến 2023: Tổng Đạo diễn Đại nhạc hội FWD với sức chứa 30.000 khán giả tại 
-              SVĐ Mỹ Đình, Hà Nội; 10.000 khán giả tại SVĐ Quân khu 7, TP Hồ Chí Minh; và 30.000 người tại Quảng Ninh
-              , Cần Thơ, và TP Hồ Chí Minh.
-            </li>
-            <li>1 huy chương vàng trong liên hoan truyền hình toàn quốc năm 2014</li>
-            <li>2 huy chương vàng trong liên hoan phim truyền hình lần thứ lần thứ 37 với vai trò người 
-              viết kịch bản và đạo diễn cho bộ phim ngắn và ký sự truyền hình phim "không khoảng cách"
-            </li>
-          </ul>
+      <button class="btn-quote">
+          LIÊN HỆ BÁO GIÁ
+      </button>
+    </div>
+    <div class="television-logo">
+      <img src="./public/assets/images/white.png" alt="ADM Logo" />
+    </div>
+    <p class="slogan">– Một điểm chạm, mọi cảm xúc –</p>
+  </section>
+
+  <section class="service-section">
+    <h1>DỊCH VỤ CHUYÊN NGHIỆP</h1>
+    <div class="services">
+      <div class="service">
+        <img src="./public/assets/images/advice1.jpg" alt="Tư vấn">
+        <p class="text">Tư vấn thiết kế và nhận diện thương hiệu</p>
+      </div>
+      <div class="service">
+        <img src="./public/assets/images/communication1.jpeg" alt="Tư vấn">
+        <p class="text">Truyền thông ra mắt sản phẩm, chương trình IMC tích hợp đa kênh</p>
+      </div>
+      <div class="service">
+        <img src="./public/assets/images/event1.jpeg" alt="Tư vấn">
+        <p class="text">Event<br>Management</p>
+      </div>
+    </div>
+    <div class="services">
+      <div class="service">
+        <img src="./public/assets/images/television1.jpg" alt="Tư vấn">
+        <p class="text">Sản xuất chương trình<br>truyền hình</p>
+      </div>
+      <div class="service">
+        <img src="./public/assets/images/travel-service1.avif" alt="Tư vấn">
+        <p class="text">Dịch vụ lữ hành</p>
+      </div>
+      <div class="service">
+        <img src="./public/assets/images/golf1.jpg" alt="Tư vấn">
+        <p class="text">Tổ chức giải Golf<br>chuyên nghiệp</p>
+      </div>
+      <div class="service">
+        <img src="./public/assets/images/gift1.jpg" alt="Tư vấn">
+        <p class="text">Quà tặng<br>khách hàng</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlight-projects mySwiper">
+    <h2><span>NHỮNG DỰ ÁN</span> <strong>NỔI BẬT</strong></h2>
+    
+    <div class="projects swiper-wrapper">
+      <div class="project swiper-slide active">
+        <img src="./public/assets/images/team_banner1.jpg" alt="Dự án 1">
+        <p>“KHI TA 29” - MB</p>
+      </div>
+      <div class="project swiper-slide">
+        <img src="./public/assets/images/1.jpg" alt="Dự án 2">
+        <p>ADM - HỢP TÁC SẢN XUẤT CHUỖI CHƯƠNG TRÌNH FWD</p>
+      </div>
+      <div class="project swiper-slide">
+        <img src="./public/assets/images/01.jpg" alt="Dự án 3">
+        <p>SỰ KIỆN: “KHAI TRƯƠNG TRƯỜNG QUỐC TẾ CÍ TẠI LÀO CAI 2023”</p>
+      </div>
+        <div class="project swiper-slide">
+          <img src="./public/assets/images/3.jpg" alt="Dự án 3">
+          <p>SỰ KIỆN: “KHAI TRƯƠNG TRƯỜNG QUỐC TẾ CÍ TẠI LÀO CAI 2023”</p>
+      </div>
+        <div class="project swiper-slide">
+          <img src="./public/assets/images/03.jpg" alt="Dự án 3">
+          <p>SỰ KIỆN: “KHAI TRƯƠNG TRƯỜNG QUỐC TẾ CÍ TẠI LÀO CAI 2023”</p>
+      </div>
+        <div class="project swiper-slide">
+          <img src="./public/assets/images/05.jpg" alt="Dự án 3">
+          <p>SỰ KIỆN: “KHAI TRƯƠNG TRƯỜNG QUỐC TẾ CÍ TẠI LÀO CAI 2023”</p>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="testimonial-header">
+      <div class="logo">
+        <img src="./public/assets/images/adm-newlogo.png" alt="ADM Production" />
+      </div>
+      <div class="tagline">
+        LUÔN LÀ ĐỐI TÁC ĐÁNG TIN CẬY CỦA KHÁCH HÀNG!
+      </div>
+    </div>
+
+    <div class="swiper-container mySwiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-card-item">
+            <span class="quote-mark">❝</span>
+            <p>
+              Tôi luôn hài lòng về chất lượng dịch vụ của ADM Production. Các sự kiện ADM lên kế hoạch triển khai lên ý tưởng,
+              tôi đều thấy sự tận tâm trong từng công đoạn. Tôi tin chắc bạn sẽ còn phát triển hơn nữa trong tương lai.
+            </p>
+            <div class="author">
+              <img src="./public/assets/images/founder-1.jpg" alt="Trịnh Anh Tuấn" />
+              <div>
+                <strong>Ông Trịnh Anh Tuấn</strong><br />
+                ANZIIF (Fellow) CIP, Tổng giám đốc Hanoi Re
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="fouder-img">
-          <img class="fouder-img-right" src="./public/assets/images/founder-1.jpg" alt="Phan Bảo">
-          <h4 class="orance">Ông Phan Bảo</h4>
-          <h4>CEO / Founder</h4>
-          <h4>Tổng Đạo Diễn</h4>
+        <div class="swiper-slide">
+          <div class="testimonial-card-item">
+            <span class="quote-mark">❝</span>
+            <p>
+              Tôi luôn hài lòng về chất lượng dịch vụ của ADM Production. Các sự kiện ADM lên kế hoạch triển khai lên ý tưởng,
+              tôi đều thấy sự tận tâm trong từng công đoạn. Tôi tin chắc bạn sẽ còn phát triển hơn nữa trong tương lai.
+            </p>
+            <div class="author">
+              <img src="./public/assets/images/founder-1.jpg" alt="Trịnh Anh Tuấn" />
+              <div>
+                <strong>Ông Trịnh Anh Tuấn</strong><br />
+                ANZIIF (Fellow) CIP, Tổng giám đốc Hanoi Re
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card-item">
+            <span class="quote-mark">❝</span>
+            <p>
+              Tôi luôn hài lòng về chất lượng dịch vụ của ADM Production. Các sự kiện ADM lên kế hoạch triển khai lên ý tưởng,
+              tôi đều thấy sự tận tâm trong từng công đoạn. Tôi tin chắc bạn sẽ còn phát triển hơn nữa trong tương lai.
+            </p>
+            <div class="author">
+              <img src="./public/assets/images/founder-1.jpg" alt="Trịnh Anh Tuấn" />
+              <div>
+                <strong>Ông Trịnh Anh Tuấn</strong><br />
+                ANZIIF (Fellow) CIP, Tổng giám đốc Hanoi Re
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-card-item">
+            <span class="quote-mark">❝</span>
+            <p>
+              Tôi luôn hài lòng về chất lượng dịch vụ của ADM Production. Các sự kiện ADM lên kế hoạch triển khai lên ý tưởng,
+              tôi đều thấy sự tận tâm trong từng công đoạn. Tôi tin chắc bạn sẽ còn phát triển hơn nữa trong tương lai.
+            </p>
+            <div class="author">
+              <img src="./public/assets/images/founder-1.jpg" alt="Trịnh Anh Tuấn" />
+              <div>
+                <strong>Ông Trịnh Anh Tuấn</strong><br />
+                ANZIIF (Fellow) CIP, Tổng giám đốc Hanoi Re
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="founder-box">
-        <div class="fouder-img fouder-img-6">
-          <img src="./public/assets/images/founder-2.jpg" alt="Phan Bảo">
-          <h4 class="orance">Bà Nguyễn Thu Thủy</h4>
-          <h4>COO / Founder</h4>
-          <h4>Tổng Điều Hành</h4>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="founders">
+    <h2>Người sáng lập</h2>
+    <div class="founder-list">
+      <div class="founder-circle"></div>
+      <div class="founder">
+        <strong>Ông Phan Bảo</strong>
+        <p>CEO / Founder<br />Tổng Đạo Diễn</p>
+      </div>
+      <img class="founder-img" src="./public/assets/images/founder-1.jpg" alt="Ông Phan Bảo" />
+      <img class="founder-img" src="./public/assets/images/founder-2.jpg" alt="Bà Nguyễn Thu Thủy" />
+      
+      <div class="founder-female">
+        <strong>Bà Nguyễn Thu Thủy</strong>
+        <p>COO / Founder<br />Tổng Điều Hành</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial testimonial-brand">
+    <div class="brand-title">
+      <h2>ĐỐI TÁC KHÁCH HÀNG CỦA ADM PRODUCTION</h2>
+    </div>
+    <div class="swiper-container mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonial-brand-parent">
+          <div class="testimonial-brand-img">
+            <img src="./public/assets/images/all-logo-3.jpg" alt="Trịnh Anh Tuấn" /> 
+          </div>
         </div>
-        <div class="founder-text founder-text-3">
-          <p class="quote">
-            <i class="fa-solid fa-quote-left quote-left "></i>
-            <span class="normal">Chúng tôi luôn trăn trở với một câu hỏi</span>
-            <br> 
-            <span class="normal">duy nhất: <span class="highlight">Hôm nay chúng tôi có thể</span></span>
-            <br> 
-            <span class="highlight">làm gì tốt hơn cho khách hàng?</span>
-            <i class="fa-solid fa-quote-right quote-right quote-right-mg"></i>
-          </p>
-          <ul class="grey-bold">
-            <li>Thạc sĩ Luật Kinh tế tốt nghiệp từ trường Đại học Luật Hà Nội.</li>
-            <li>Giám đốc Nhân sự tại các ngân hàng Bảo Việt, TPBank, NCB</li>
-            <li>Trưởng Ban tổ chức Nhân sự tại PVI Insurance</li>
-            <li>Giám đốc tại Trung tâm Dịch vụ Nhân sự (Share Service Center) tại các công ty thuộc tập đoàn Vingroup như Vintech, VinDigiX, VinAl, VinCc, chuyên về an ninh mạng, nghiên cứu Bigdata, công nghệ cao của Viện Vin Hitech, và nghiên cứu về pin và động cơ xe điện.
-            </li>
-            <li>Giám đốc Đối Ngoại và Giám đốc Khách hàng chiến lược tại Tập đoàn FLC/Bamboo Airways.</li>
-          </ul>
+
+        <div class="swiper-slide">
+          <div class="testimonial-brand-img">
+            <img src="./public/assets/images/all-logo-2.webp" alt="Trịnh Anh Tuấn" />
+          </div>
         </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-brand-img">
+            <img src="./public/assets/images/all-logo-3.jpg" alt="Trịnh Anh Tuấn" />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-brand-img">
+            <img src="./public/assets/images/all-logo-2.webp" alt="Trịnh Anh Tuấn" />
+          </div>
+        </div>
+        
       </div>
 
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
   </section>
 
@@ -160,14 +325,46 @@
   </footer>
 </body>
 </html>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
 <script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 60,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  var swiper = new Swiper(".mySwiper1", {
+    slidesPerView: 2,
+    pagination: {
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  var swiper = new Swiper(".mySwiper2", {
+    pagination: {
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
   const contactBar = document.getElementById('contactBar');
   const toggleBtn = document.getElementById('toggleBtn');
 
   toggleBtn.addEventListener('click', () => {
     contactBar.classList.toggle('hidden');
   });
-
   document.querySelectorAll('.dropdown-menu').forEach(menu => {
     const firstLi = menu.querySelector('.first_li'); // li đầu tiên của menu này
     if (firstLi) {

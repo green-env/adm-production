@@ -3,24 +3,24 @@
     display: flex;
     justify-content: center;
     padding: 50px 40px;
-    background: linear-gradient(60deg, rgb(252, 250, 250) 0%, rgb(235, 218, 218) 100%, #f4f4f4 100%);
+    /* background: linear-gradient(60deg, rgb(252, 250, 250) 0%, rgb(235, 218, 218) 100%, #f4f4f4 100%); */
     height: 600px;
 }
 
 .business-philosophy {
-    width: 30%;
+    width: 45%;
     padding-left: 15%;
 }
 
 .core-values {
-    width: 40%;
+    width: 45%;
     padding-left: 15%;
 }
 
 .business h2 {
-    color: #ff6600;
-    font-size: 32px;
-    font-weight: bold;
+    color: var(--orance-color);
+    font-size: 45px;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
@@ -32,22 +32,23 @@
     list-style: none;
     padding: 0;
     padding-left: 20px;
+    margin-top: 10px;
 }
 
 .business .business-philosophy li {
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    color: #333;
+    color: var(--dark-mode);
 }
 
 .business .business-philosophy li::before {
     content: "▶";
     position: absolute;
     left: 0;
-    color: #ff6600;
+    color: var(--orance-color);
     font-size: 12px;
 }
 
@@ -57,17 +58,19 @@
 }
 
 .business .core-values li {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #333;
+    color: var(--dark-mode);
+    padding-left: 20px;
 }
 
 .business .letter {
-    color: #ff6600;
+    color: var(--orance-color);
     font-weight: bold;
     display: inline-block;
     width: 20px;
+    padding-right: 10px;
 }
 
 
@@ -92,7 +95,7 @@
 
 .horizontal-lines {
     width: 100%;
-    border-bottom: 5px solid rgba(14, 30, 37, 0.32);
+    border-bottom: 5px solid rgba(136, 148, 153, 0.32);
     z-index: 10;
     display: block;
     position: absolute;

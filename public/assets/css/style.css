@@ -1,8 +1,8 @@
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Roboto', sans-serif; }
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Fira Sans', sans-serif; }
 html, body {
     margin: 0;
     padding: 0;
-    background: #fff;
+    background: #FFFFFF;
     width: 100%;
     height: 100%;
 }
@@ -10,6 +10,11 @@ html, body {
   --grey-color: #888888;
   --grey-bold-color: #615858;
   --text-color: #f46024;
+  --black-color: #111827;
+  --gray-color: #374151;
+  --dark-mode: #111827;
+  --orance-color: #F97316;
+  --white-color: #FFFFFF;
 }
 .grey {
     color: #888888;
@@ -47,13 +52,14 @@ html, body {
 }
 
 .menu .sub-menu-icon {
-    color: #df6f47;
+    color: var(--orance-color);
     margin-left: 35px;
+    font-size: 23px;
 }
 
 .menu div a {
     text-decoration: none;
-    color: #333;
+    color: var(--grey-color);
 }
 
 .menu div:hover {
@@ -68,6 +74,7 @@ html, body {
     height: 100%;
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 .menu .menu-about, .menu-home, .menu-service, .menu-project, .menu-languages {
     position: relative;
@@ -170,15 +177,16 @@ html, body {
 
 
 .section-hero-title-h1 {
-    font-size: 55px;
+    font-size: 48px;
     font-weight: 1000;
-    color: #3b3737;
+    color: var(--black-color);
     padding-top: 19px;
+    padding-bottom: 10px;
 }
 
 .section-hero-title-p {
     font-size: 20px;
-    color: #585050;
+    color: var(--black-color);
     padding-bottom: 25px;
 }
 
@@ -360,7 +368,7 @@ html, body {
 
 .footer {
     background: linear-gradient(135deg, #f46024, #f8701e);
-    color: white;
+    color: #FFFFFF;
     padding: 20px;
     height: auto;
 }
@@ -375,15 +383,15 @@ html, body {
 .about-header {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     margin-left: 50px;
 }
 
 .about-title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
+    width: 19%;
 }
 
 .about-title::after {
@@ -398,8 +406,10 @@ html, body {
 
 .about-description {
     max-width: 900px;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 60%;
+    font-weight: 500;
 }
 
 .about-download {
