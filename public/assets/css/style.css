@@ -21,7 +21,8 @@ html, body {
 }
 
 .grey-bold {
-    color: #615858;
+    color: var(--dark-mode);
+    margin-left: 30px;
 }
    
 /* header */
@@ -204,7 +205,7 @@ html, body {
 }
 /* body */
 .title-section {
-    color: #df6f47;
+    color: var(--orance-color);
     text-align: center;
     font-weight: 800;
     font-size: 28px;
@@ -248,7 +249,7 @@ html, body {
 }
 
 .orance {
-    color: #f69d3c;
+    color: var(--orance-color);
 }
 
 .quote-left {
@@ -267,7 +268,7 @@ html, body {
 
 .highlight {
     font-weight: 800;
-    color: rgb(102, 102, 102);
+    color: var(--dark-mode);
     font-size: 27px;
     padding-left: 8px;
     padding-right: 7px;
@@ -275,7 +276,7 @@ html, body {
 }
 
 .normal {
-    color: #5a4f4f;
+    color: var(--dark-mode);
     font-size: 27px;
     padding-left: 8px;
     padding-right: 7px;
@@ -309,12 +310,12 @@ html, body {
 .fouder-img h4:nth-of-type(2) {
     font-size: 18px;
     padding-bottom: 2px;
-    color: #888888;
+    color: var(--dark-mode);
 }
 
 .fouder-img h4:nth-of-type(3) {
     font-size: 18px;
-    color: #888888;
+    color: var(--dark-mode);
 }
 
 
