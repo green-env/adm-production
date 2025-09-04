@@ -1,0 +1,95 @@
+.signature {
+    background: linear-gradient(135deg, #111, #444);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.signature-ml {
+    margin-left: 20px;
+}
+
+.signature h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.signature p {
+    margin: 10px 0 0;
+    font-size: 1.1rem;
+}
+
+.signature-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.signature-container p {
+    font-size: 18px;
+}
+
+.signature-container h2 {
+    color: var(--dark-mode);
+    margin-top: 40px;
+    border-left: 5px solid #c29d59;
+    padding-left: 10px;
+}
+
+.signature-info-box {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    line-height: 30px;
+}
+
+.signature-introduces {
+    margin-bottom: 15px;
+}
+
+.signature-highlight {
+    background: #fef6e4;
+    border-left: 4px solid #c29d59;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+
+/* CTA bar */
+.cta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background: #fafafa;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.cta-bar a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #c29d59;
+  color: #222;
+  background: #fff;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+.cta-bar a:hover {
+  background: #c29d59;
+  color: #fff;
+}

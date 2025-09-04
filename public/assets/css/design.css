@@ -1,0 +1,19 @@
+.page-design {
+    margin-bottom: 20px;
+}
+
+.design-manager-left-parent {
+    padding-top: 30px;
+}
+
+.design-manager-left-parent.design-ul li {
+    margin-top: 10px;
+}
+
+.design-ul li:last-child {
+    margin-bottom: 10px;
+}
+
+.section-channel-title-h1 {
+    font-size: 35px;
+}

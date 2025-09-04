@@ -1,0 +1,47 @@
+.channel-page {
+    background-color: white;
+    height: 500px;
+    margin-top: -30px;
+    color: #333;
+    color: var(--dark-mode);
+    font-size: 18px;
+    width: 100%;
+}
+
+.channel-page-top {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.channel-page-top-p1 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.channel-page-bottom {
+    max-width: 80%;
+    margin-top: 40px !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.channel-left {
+    width: 50%;
+}
+
+.channel-left ul {
+    margin-left: 35px;
+    line-height: 30px;
+}
+
+.channel-right {
+    width: 50%;
+}
+
+.channel-right ul {
+    margin-left: 35px;
+    line-height: 30px;
+}
