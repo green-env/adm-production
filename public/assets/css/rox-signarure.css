@@ -20,7 +20,7 @@
 }
 
 .signature-container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
 }
@@ -92,4 +92,109 @@
 .cta-bar a:hover {
   background: #c29d59;
   color: #fff;
+}
+
+/* new */
+.signature-info {
+    max-width: 1200px;
+    background-color: var(--dark-mode);
+    color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.project-info {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.left-section {
+    flex: 3;
+    background: #0a0a0a;
+    border-radius: 12px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.left-section h2 {
+    grid-column: span 2;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.info-sub {
+    display: flex;
+}
+
+.info-img {
+    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+}
+
+.info-item span {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-item p {
+    margin: 0;
+    color: #ccc;
+}
+
+.right-section {
+    flex: 1;
+    background: #0a0a0a;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #7f00ff, #e100ff, #ffae00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.phone-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #7f00ff, #e100ff, #ff4b2b);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.phone-btn:hover {
+    opacity: 0.9;
 }
